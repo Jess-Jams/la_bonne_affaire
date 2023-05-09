@@ -1,4 +1,65 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    /* border: dashed 1px palegoldenrod */
+}
+
+body {
+    background-image: url(../assets/images/troc.png);
+    background-attachment: fixed;
+    /* background-size: contain; */
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+
+.containerAnimation {
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+    /* justify-content: center; */
+    color: #eca43e;
+    text-shadow: 2px 2px #0362a2;
+    animation: titleAnimation 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite alternate-reverse;
+}
+
+.containerAnimation::first-letter,
+span {
+    color: #ea2630;
+    font-size: 150%;
+}
+
+@-webkit-keyframes titleAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0.8;
+    }
+
+    100% {
+        letter-spacing: 2em;
+
+    }
+}
+
+@keyframes titleAnimation {
+    0% {
+        opacity: 1;
+    }
+
+    60% {
+        opacity: 0.8;
+    }
+
+    100% {
+        letter-spacing: 2em;
+
+    }
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
 }
