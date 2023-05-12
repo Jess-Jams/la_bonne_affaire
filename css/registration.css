@@ -1,0 +1,14 @@
+body {
+    background-image: url(../assets/images/troc.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+.registerCard{
+background: hsla(0, 0%, 100%, 0.808);
+    backdrop-filter: blur(15px);
+    margin: auto;
+    width: 75vw;
+    height: 75vh;
+}
