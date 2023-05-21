@@ -52,7 +52,7 @@
           </p>
           <p>
             Vous n'avez pas de compte ?
-            <a href="./pages/RegistrationForm.html" class="link-info">Inscrivez-vous ici</a>
+            <a href="./pages/RegistrationForm.php" class="link-info">Inscrivez-vous ici</a>
           </p>
         </form>
       </div>
